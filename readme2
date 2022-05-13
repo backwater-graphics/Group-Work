@@ -28,19 +28,19 @@
 
 ## First Segment: Sketch It Out:
 - <b>Topic:</b> Red vs White Wine
-- <b>Reason for selected topic:</b> 
+- <b>Reason for selected topic:</b>  This topic was one that all the members of the group had some familiarity with and interest in the topic
 - <b>Description of source data:</b> 
-    - Title: World Happiness Report 2015-2022
-        - Data Set: output.csv
-        - Dataset Description: This is a csv file with 314 rows and 13 columns. The World Happiness Report is a publication of the United Nations Sustainable Development Solutions Network. It contains articles and rankings of national happiness, based on respondent ratings of their own lives, which the report also correlates with various (quality of) life factors. As of March 2022, Finland had been ranked the happiest country in the world five times in a row.
-        - Categories: Country, Region, happiness Rank, Happiness score, Standard error, Economy(GDP per Capita), Family, Health(life expectancy), Freedom, Trust (Government Corruption), generosity, Dystopia Residual, year
+    - Title: winequality-red
+        - Data Set: winequality-red.csv
+        - Dataset Description: This is a csv file with 1600 rows and 12 columns. The World Happiness Report is a publication of the United Nations Sustainable Development Solutions Network. It contains articles and rankings of national happiness, based on respondent ratings of their own lives, which the report also correlates with various (quality of) life factors. As of March 2022, Finland had been ranked the happiest country in the world five times in a row.
+        - Categories: fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, quality
     - Title: Prevalence of mental health disorders in men vs. women
         - Data set: share-with-mental-health-males-vs-females.csv
         - Dataset Description: This is a csv file with 56,396 rows and 7 columns. Share of males versus females with any mental health or development disability disorder, not including alcohol and drug use disorders.
         - Categories: Entity(country), Country Code, Year, Prevalence - Mental disorders - Sex: Male - Age: Age-standardized (Percent), Prevalence - Mental disorders - Sex: Female - Age: Age-standardized (Percent), Population (historical estimates), Continent
 - <b>Questions we hope to answer with the data:</b>
-    - How does mental health affect World Happiness?
-    - How does World Happiness affect men vs. women?
+    - Can we use a machine learning algorithm to predict if the wine is red or white based on features of the wines?
+    
 
 ## First Segment Requirements:
 ### 1.	Presentation (x)
